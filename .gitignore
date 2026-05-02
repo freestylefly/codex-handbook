@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+.vitepress/cache
+.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/dist
+*.log
+.env
+.env.*

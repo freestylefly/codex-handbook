@@ -1,0 +1,28 @@
+name: 内容建议
+description: 建议新增教程、案例或资料索引
+title: "[Content] "
+labels: ["content", "help wanted"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想新增什么内容
+      description: 请描述这个内容能帮助谁解决什么问题。
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: 内容类型
+      options:
+        - 入门教程
+        - 进阶教程
+        - 实战案例
+        - 排障条目
+        - 官方资料更新
+        - 团队实践
+  - type: textarea
+    id: sources
+    attributes:
+      label: 参考资料
+      description: 如果有官方链接、复现仓库或案例说明，请贴在这里。

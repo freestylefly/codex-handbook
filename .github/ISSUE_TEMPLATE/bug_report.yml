@@ -1,0 +1,22 @@
+name: 错误反馈
+description: 报告文档错误、过期信息或无法复现的步骤
+title: "[Bug] "
+labels: ["bug", "docs"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请说明哪里不准确、过期或无法复现。
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: 相关页面
+      placeholder: https://github.com/freestylefly/codex-handbook/...
+  - type: textarea
+    id: expected
+    attributes:
+      label: 建议修复
+      description: 如果你知道正确写法，请直接写出来。

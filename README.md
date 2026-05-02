@@ -2,7 +2,7 @@
 
 > 面向中文开发者的 Codex 开源知识库：从安装、工作流、提示词、AGENTS.md、沙盒与审批，到云端任务、IDE、团队协作和真实项目案例。
 
-[![Docs](https://img.shields.io/badge/docs-VitePress-646cff)](https://freestylefly.github.io/codex-handbook/)
+[![Docs](https://img.shields.io/badge/docs-VitePress-646cff)](https://blog.canghecode.com/codex-handbook/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 

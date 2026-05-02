@@ -12,7 +12,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Codex 从入门到精通' }],
     ['meta', { property: 'og:description', content: '面向中文开发者的 Codex 开源教程知识库' }],
-    ['meta', { property: 'og:image', content: 'https://freestylefly.github.io/codex-handbook/og.svg' }]
+    ['meta', { property: 'og:image', content: 'https://blog.canghecode.com/codex-handbook/og.svg' }]
   ],
   themeConfig: {
     logo: '/logo.svg',

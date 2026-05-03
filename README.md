@@ -5,7 +5,7 @@
 <h3 align="center">Codex 从入门到精通 · 面向中文开发者的系统化开源教程知识库</h3>
 
 <p align="center">
-  <a href="https://blog.canghecode.com/CodexGuide/"><img src="https://img.shields.io/badge/Docs-Online-0f766e?style=flat-square" alt="Docs"></a>
+  <a href="https://codexguide.ai/"><img src="https://img.shields.io/badge/Docs-codexguide.ai-0f766e?style=flat-square" alt="Docs"></a>
   <a href="https://github.com/freestylefly/CodexGuide/stargazers"><img src="https://img.shields.io/github/stars/freestylefly/CodexGuide?style=flat-square&color=111827" alt="Stars"></a>
   <a href="https://github.com/freestylefly/CodexGuide/network/members"><img src="https://img.shields.io/github/forks/freestylefly/CodexGuide?style=flat-square&color=0f766e" alt="Forks"></a>
   <a href="https://github.com/freestylefly/CodexGuide/issues"><img src="https://img.shields.io/github/issues/freestylefly/CodexGuide?style=flat-square&color=2563eb" alt="Issues"></a>
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://blog.canghecode.com/CodexGuide/">在线阅读</a>
+  <a href="https://codexguide.ai/">在线阅读</a>
   ·
   <a href="./docs/guide/00-overview.md">学习路线</a>
   ·
@@ -55,6 +55,16 @@ CodexGuide 想做的不是零散技巧合集，而是一份能长期维护、能
 | [实战案例库](./docs/recipes/index.md) | 可复制到真实项目的任务模板和复盘结构 |
 | [官方资料索引](./docs/reference/index.md) | OpenAI 官方资料、GitHub 仓库和关键链接 |
 
+## 技术架构
+
+本站参考 [JavaGuide](https://github.com/Snailclimb/JavaGuide) 的内容组织方式，采用：
+
+- Markdown 内容源文件。
+- VuePress 静态站点生成器。
+- VuePress Theme Hope 主题。
+- Vercel 托管与自动部署。
+- 自定义域名：[`codexguide.ai`](https://codexguide.ai/)。
+
 ## 内容框架
 
 ```text
@@ -87,6 +97,14 @@ pnpm dev
 ```bash
 pnpm build
 ```
+
+Vercel 项目配置：
+
+- Framework Preset: `Other`
+- Install Command: `pnpm install --frozen-lockfile`
+- Build Command: `pnpm build`
+- Output Directory: `docs/.vuepress/dist`
+- Production Domain: `codexguide.ai`
 
 ## Star 趋势图
 

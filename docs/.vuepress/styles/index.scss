@@ -1,0 +1,29 @@
+:root {
+  --theme-color: #0f766e;
+  --vp-c-accent: #0f766e;
+  --vp-c-accent-bg: #0d9488;
+  --vp-c-accent-hover: #14b8a6;
+  --vp-c-accent-soft: rgb(20 184 166 / 14%);
+}
+
+.vp-hero-info-wrapper {
+  min-height: calc(100vh - var(--navbar-height) - 120px);
+}
+
+.vp-hero-title,
+.vp-hero-description {
+  letter-spacing: 0;
+}
+
+.vp-feature-title,
+.vp-feature-details {
+  letter-spacing: 0;
+}
+
+.vp-page :where(h1, h2, h3, h4, h5, h6) {
+  letter-spacing: 0;
+}
+
+.vp-footer-wrapper {
+  border-top: 1px solid var(--vp-c-border);
+}

@@ -5,6 +5,10 @@ dist
 .vitepress/dist
 docs/.vitepress/cache
 docs/.vitepress/dist
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+docs/.vuepress/dist
 *.log
 .env
 .env.*
+.vercel

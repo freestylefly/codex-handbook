@@ -4,13 +4,23 @@
   "private": true,
   "description": "CodexGuide：面向中文开发者的 Codex 开源教程知识库",
   "type": "module",
+  "engines": {
+    "node": ">=22 <25"
+  },
   "scripts": {
-    "dev": "vitepress docs --host 0.0.0.0",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs --host 0.0.0.0"
+    "dev": "vuepress dev docs --host 0.0.0.0",
+    "build": "vuepress build docs",
+    "clean": "rm -rf docs/.vuepress/.cache docs/.vuepress/.temp docs/.vuepress/dist",
+    "preview": "vuepress dev docs --host 0.0.0.0"
   },
   "devDependencies": {
-    "vitepress": "^1.6.4"
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "@vuepress/plugin-feed": "2.0.0-rc.128",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.128",
+    "sass-embedded": "^1.97.2",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.28",
+    "vuepress-theme-hope": "2.0.0-rc.106"
   },
   "packageManager": "pnpm@10.33.0"
 }

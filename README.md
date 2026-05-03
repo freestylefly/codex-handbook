@@ -100,7 +100,7 @@ pnpm build
 
 Vercel 项目配置：
 
-- Framework Preset: `Other`
+- Framework Preset: `VuePress`
 - Install Command: `pnpm install --frozen-lockfile`
 - Build Command: `pnpm build`
 - Output Directory: `docs/.vuepress/dist`

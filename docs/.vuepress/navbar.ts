@@ -3,6 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "首页", icon: "home", link: "/" },
   { text: "学习路线", icon: "map", link: "/guide/00-overview.md" },
+  { text: "入口地图", icon: "layout", link: "/platform/" },
   {
     text: "教程",
     icon: "book",
@@ -18,6 +19,7 @@ export default navbar([
       { text: "排障手册", icon: "debug", link: "/guide/09-troubleshooting.md" },
     ],
   },
+  { text: "实践方法", icon: "tool", link: "/practice/" },
   { text: "实战案例", icon: "lightbulb", link: "/recipes/" },
   { text: "官方资料", icon: "link", link: "/reference/" },
   { text: "共建", icon: "people", link: "/community/roadmap.md" },

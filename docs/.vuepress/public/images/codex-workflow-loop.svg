@@ -1,0 +1,27 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#0F172A"/>
+  <text x="90" y="112" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Codex 高质量任务闭环</text>
+  <text x="90" y="152" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">把一次任务拆成可观察、可验证、可复盘的工程循环。</text>
+  <g font-family="Arial, sans-serif" font-size="22">
+    <circle cx="260" cy="360" r="92" fill="#0F766E" fill-opacity=".24" stroke="#2DD4BF" stroke-width="3"/>
+    <text x="220" y="354" fill="#F8FAFC" font-weight="700">说明</text>
+    <text x="197" y="389" fill="#CBD5E1" font-size="18">目标 / 范围 / 约束</text>
+    <circle cx="520" cy="248" r="92" fill="#2563EB" fill-opacity=".22" stroke="#60A5FA" stroke-width="3"/>
+    <text x="480" y="242" fill="#F8FAFC" font-weight="700">探索</text>
+    <text x="456" y="277" fill="#CBD5E1" font-size="18">读仓库 / 找入口</text>
+    <circle cx="800" cy="248" r="92" fill="#7C3AED" fill-opacity=".2" stroke="#A78BFA" stroke-width="3"/>
+    <text x="760" y="242" fill="#F8FAFC" font-weight="700">实施</text>
+    <text x="736" y="277" fill="#CBD5E1" font-size="18">小步修改 / 控制 diff</text>
+    <circle cx="1020" cy="360" r="92" fill="#F59E0B" fill-opacity=".18" stroke="#FBBF24" stroke-width="3"/>
+    <text x="980" y="354" fill="#F8FAFC" font-weight="700">验证</text>
+    <text x="952" y="389" fill="#CBD5E1" font-size="18">测试 / 运行 / 检查</text>
+    <circle cx="640" cy="512" r="92" fill="#020617" stroke="#475569" stroke-width="3"/>
+    <text x="600" y="506" fill="#F8FAFC" font-weight="700">复盘</text>
+    <text x="565" y="541" fill="#CBD5E1" font-size="18">原因 / 改动 / 风险</text>
+  </g>
+  <path d="M352 342C398 299 431 279 431 279" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M612 248H708" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M891 277C935 300 954 326 954 326" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M952 422C875 485 757 512 732 515" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M548 514C431 501 338 440 315 421" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+</svg>

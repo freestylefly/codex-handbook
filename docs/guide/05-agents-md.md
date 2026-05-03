@@ -3,7 +3,7 @@
 `AGENTS.md` 是给 Codex 这类编码代理看的项目说明文件。它可以描述项目结构、开发命令、测试要求、代码风格和协作边界。
 
 ::: tip 最后核对
-`AGENTS.md` 机制请以 [openai/codex GitHub repository](https://github.com/openai/codex) 及其文档为准。最后核对日期：2026-05-02。
+`AGENTS.md` 机制请以 [Codex AGENTS.md 官方文档](https://developers.openai.com/codex/guides/agents-md) 和 [openai/codex GitHub repository](https://github.com/openai/codex) 为准。最后核对日期：2026-05-04。
 :::
 
 ## 为什么需要 AGENTS.md
@@ -17,6 +17,14 @@
 - 提交前要跑哪些检查。
 
 `AGENTS.md` 能把这些规则显式写下来，减少反复解释。
+
+## 建议放在仓库哪里
+
+常见做法是在仓库根目录放一个 `AGENTS.md`。如果是 monorepo，可以在子目录继续放更细的规则，让不同包拥有各自的命令、测试和注意事项。
+
+::: info 截图占位
+请补充仓库根目录 `AGENTS.md` 文件截图。建议文件：`docs/.vuepress/public/screenshots/cli/04-agents-md-location.png`。
+:::
 
 ## 推荐模板
 
@@ -63,3 +71,31 @@
 - 如果是 monorepo，请说明每个包的边界。
 - 如果有特殊 lint、格式化或代码生成流程，写在命令区。
 - 对安全敏感项目，单独写“禁止事项”。
+
+## 最小可用版本
+
+```markdown
+# AGENTS.md
+
+## 项目命令
+
+- 安装依赖：`pnpm install`
+- 本地开发：`pnpm dev`
+- 构建：`pnpm build`
+
+## 改动规则
+
+- 修改前先阅读相关文件。
+- 保持现有代码风格。
+- 不提交构建产物和环境变量文件。
+
+## 验证要求
+
+- 文档改动运行：`pnpm build`
+- 代码改动运行相关测试。
+
+## 安全边界
+
+- 不读取 `.env` 或任何私有凭据。
+- 不执行发布、部署、数据库迁移和删除数据命令。
+```

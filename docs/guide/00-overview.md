@@ -1,71 +1,49 @@
 # 学习路线
 
-这份知识库按“能跑起来、能交付、能协作、能沉淀”四个阶段组织。
+CodexGuide 按“认识入口、跑通任务、建立方法、团队沉淀”四层组织。你可以从 CLI 入门，也可以从桌面端、ChatGPT 或云端任务开始；关键在于先理解每个入口适合承载的任务节奏。
 
-## 阶段一：入门
+::: tip 最后核对
+官方资料最后核对日期：2026-05-04。核心来源包括 [OpenAI Codex 产品页](https://openai.com/codex/)、[Codex 文档入口](https://developers.openai.com/codex/)、[Codex CLI 官方仓库](https://github.com/openai/codex) 与 [Codex Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)。
+:::
 
-目标：让 Codex 在你的本地项目里完成一个低风险任务。
+![Codex 使用入口地图](/images/codex-surfaces.svg)
 
-你需要掌握：
+## 你要先建立的全局理解
 
-- 安装 Codex CLI。
-- 完成 ChatGPT 登录或 API 相关配置。
-- 让 Codex 阅读项目结构。
-- 给出小而清晰的任务。
-- 理解它会修改文件、运行命令并展示结果。
+Codex 是 OpenAI 面向软件工程与知识工作场景的代理式工作流。它可以在多个入口中出现：
 
-推荐阅读：
+- CLI：贴近终端和本地仓库，适合快速修改、运行命令、排障和验证。
+- Desktop App：适合本地多任务、Skills、Automations、子代理和插件化工作流。
+- Web / Cloud / ChatGPT：适合连接仓库、分派长任务、并行处理、生成 PR 或回答代码问题。
+- IDE：适合贴近编辑器上下文的解释、修改、审查和局部任务。
+- 集成生态：GitHub、Slack、Linear、MCP 等入口让 Codex 接入团队协作链路。
 
-- [安装与登录](/guide/01-installation)
-- [第一次让 Codex 改代码](/guide/02-first-run)
+## 四阶段路线
 
-## 阶段二：进阶
+| 阶段 | 目标 | 推荐页面 | 验收标准 |
+| --- | --- | --- | --- |
+| 入门 | 跑通一个低风险任务 | [安装与登录](./01-installation.md)、[第一次改代码](./02-first-run.md) | 能让 Codex 阅读仓库、修改一个小问题并运行验证 |
+| 进阶 | 形成稳定任务方法 | [提示词与任务说明](./03-prompting.md)、[实践方法](/practice/) | 能写清楚目标、范围、约束、验证和交付 |
+| 工程化 | 进入真实项目流程 | [真实工程工作流](./04-workflows.md)、[沙盒与审批](./06-sandbox-approvals.md) | 每次改动都有 diff、测试结果和风险说明 |
+| 团队化 | 沉淀规则和案例 | [AGENTS.md](./05-agents-md.md)、[团队实践](/practice/team-playbook.md) | 项目有规则文件、案例库、排障手册和贡献路径 |
 
-目标：把 Codex 用在每天的开发工作里，而不是只做演示。
+## 新手推荐路径
 
-你需要掌握：
+1. 阅读 [入口地图](/platform/)。
+2. 安装 CLI，完成一次登录和版本检查。
+3. 用“只读仓库总结”任务确认 Codex 能理解项目。
+4. 执行一个低风险修改，例如修文档、补测试或修复单个失败用例。
+5. 建立第一个 `AGENTS.md`，写入项目命令和禁止事项。
+6. 把成功任务整理成案例，放进团队知识库。
 
-- 如何写任务说明。
-- 如何限制改动范围。
-- 如何让 Codex 先读代码再动手。
-- 如何要求它运行测试、解释风险和给出验证结果。
-- 如何让它处理失败，而不是停在第一条错误上。
+## 非开发者也可以怎么用
 
-推荐阅读：
+Codex 的核心能力是“理解一组文件、执行有边界的任务、产出可复核结果”。这让它也适合：
 
-- [高质量任务说明与提示词](/guide/03-prompting)
-- [真实工程工作流](/guide/04-workflows)
-- [排障手册](/guide/09-troubleshooting)
+- 阅读陌生代码库，输出学习路线。
+- 整理项目文档、README、迁移说明和发布说明。
+- 审阅配置、依赖、脚本和 CI 失败原因。
+- 把重复流程沉淀成模板、Skill 或自动化提醒。
+- 辅助产品、运营、技术写作和团队知识管理。
 
-## 阶段三：团队化
-
-目标：让 Codex 遵守项目规范，并进入团队的 PR 和评审流程。
-
-你需要掌握：
-
-- 为项目编写 `AGENTS.md`。
-- 约定测试、格式化、提交和安全边界。
-- 使用 Cloud、IDE 或 App 分派更长任务。
-- 把成功案例沉淀成可复用模板。
-
-推荐阅读：
-
-- [AGENTS.md 项目规则](/guide/05-agents-md)
-- [沙盒、审批与安全边界](/guide/06-sandbox-approvals)
-- [Cloud、IDE 与桌面 App](/guide/07-cloud-ide-app)
-
-## 阶段四：维护者
-
-目标：把 Codex 变成项目治理和知识沉淀的一部分。
-
-你可以探索：
-
-- 用 Skills 固化团队标准。
-- 用 Automations 做例行检查和提醒。
-- 建立案例库、提示词库和排障库。
-- 跟踪官方变化并更新团队指南。
-
-推荐阅读：
-
-- [Skills、Automations 与团队沉淀](/guide/08-skills-automations)
-- [共建路线图](/community/roadmap)
+下一步建议读：[入口地图](/platform/)。

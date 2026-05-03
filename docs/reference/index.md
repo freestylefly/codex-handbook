@@ -1,23 +1,37 @@
 # 官方资料索引
 
-本页整理 Codex 相关官方资料。涉及价格、计划、模型、可用地区、功能开关等时间敏感信息时，请优先打开原文确认。
+本页整理 Codex 相关官方资料。涉及价格、计划、模型、可用地区、功能开关、账号权限等时间敏感信息时，请优先打开原文确认。
 
-最后核对日期：2026-05-02。
+最后核对日期：2026-05-04。
 
 ## OpenAI 官方
 
 - [Codex 产品页](https://openai.com/codex/)：Codex 的产品定位、使用界面和团队能力概览。
 - [Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)：计划可用性、入口和常见问题。
 - [OpenAI Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started)：CLI 入门、安装和基础能力。
-- [Codex cloud docs](https://platform.openai.com/docs/codex)：云端任务、GitHub 连接和仓库工作流。
+- [Codex 文档入口](https://developers.openai.com/codex/)：Codex App、CLI、Cloud、配置、安全、Skills、MCP 等官方文档入口。
+- [Codex cloud docs](https://platform.openai.com/docs/codex)：云端任务、GitHub 连接和仓库工作流入口。
 - [Introducing Codex](https://openai.com/index/introducing-codex/)：Codex 发布背景和云端软件工程代理介绍。
 - [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/)：Codex App 相关介绍。
 - [Unrolling the Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop/)：Codex agent loop 背后的工作方式介绍。
 
-## GitHub
+## 官方文档重点页面
+
+- [Codex CLI features](https://developers.openai.com/codex/cli/features)：CLI 交互模式、非交互模式、功能概览。
+- [AGENTS.md](https://developers.openai.com/codex/guides/agents-md)：项目规则文件的官方说明。
+- [Codex security](https://developers.openai.com/codex/security)：沙盒、审批和安全边界。
+- [Codex config basic](https://developers.openai.com/codex/config-basic)：基础配置。
+- [Codex config advanced](https://developers.openai.com/codex/config-advanced)：高级配置。
+- [Codex config reference](https://developers.openai.com/codex/config-reference)：完整配置参考。
+- [Codex skills](https://developers.openai.com/codex/skills)：Skills 官方说明。
+
+## GitHub 官方仓库
 
 - [openai/codex](https://github.com/openai/codex)：Codex CLI 开源仓库。
 - [AGENTS.md 相关文档](https://github.com/openai/codex/blob/main/docs/agents_md.md)：项目规则文件相关说明。
+- [CLI 安装与构建](https://github.com/openai/codex/blob/main/docs/install.md)：系统要求、源码构建和日志说明。
+- [CLI 配置](https://github.com/openai/codex/blob/main/docs/config.md)：配置文档索引。
+- [Sandbox 文档](https://github.com/openai/codex/blob/main/docs/sandbox.md)：沙盒与审批官方入口。
 
 ## 如何使用这些资料
 

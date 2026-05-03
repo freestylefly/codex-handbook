@@ -1,0 +1,35 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#0B1220"/>
+  <rect x="48" y="48" width="1184" height="624" rx="28" fill="#111827" stroke="#334155"/>
+  <text x="84" y="118" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Codex 使用入口地图</text>
+  <text x="84" y="158" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">同一套编码代理能力，在不同入口里承担不同节奏的任务。</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="88" y="220" width="240" height="178" rx="20" fill="#0F766E" fill-opacity=".22" stroke="#2DD4BF"/>
+    <text x="116" y="272" fill="#CCFBF1" font-size="30" font-weight="700">CLI</text>
+    <text x="116" y="315" fill="#E2E8F0" font-size="20">终端内快速迭代</text>
+    <text x="116" y="350" fill="#94A3B8" font-size="18">读代码 · 改文件 · 跑测试</text>
+
+    <rect x="376" y="220" width="240" height="178" rx="20" fill="#1D4ED8" fill-opacity=".2" stroke="#60A5FA"/>
+    <text x="404" y="272" fill="#DBEAFE" font-size="30" font-weight="700">Cloud / Web</text>
+    <text x="404" y="315" fill="#E2E8F0" font-size="20">长任务与并行任务</text>
+    <text x="404" y="350" fill="#94A3B8" font-size="18">仓库任务 · PR · 后台运行</text>
+
+    <rect x="664" y="220" width="240" height="178" rx="20" fill="#7C3AED" fill-opacity=".18" stroke="#A78BFA"/>
+    <text x="692" y="272" fill="#EDE9FE" font-size="30" font-weight="700">IDE</text>
+    <text x="692" y="315" fill="#E2E8F0" font-size="20">贴近编辑器上下文</text>
+    <text x="692" y="350" fill="#94A3B8" font-size="18">解释代码 · 局部修改 · Review</text>
+
+    <rect x="952" y="220" width="240" height="178" rx="20" fill="#F59E0B" fill-opacity=".16" stroke="#FBBF24"/>
+    <text x="980" y="272" fill="#FEF3C7" font-size="30" font-weight="700">Desktop App</text>
+    <text x="980" y="315" fill="#E2E8F0" font-size="20">本地多任务工作台</text>
+    <text x="980" y="350" fill="#94A3B8" font-size="18">Agents · Skills · Automations</text>
+
+    <rect x="232" y="462" width="360" height="118" rx="18" fill="#020617" stroke="#475569"/>
+    <text x="264" y="510" fill="#F8FAFC" font-size="26" font-weight="700">ChatGPT 中的 Codex</text>
+    <text x="264" y="548" fill="#94A3B8" font-size="18">面向仓库的任务分派、理解、总结与协作</text>
+
+    <rect x="688" y="462" width="360" height="118" rx="18" fill="#020617" stroke="#475569"/>
+    <text x="720" y="510" fill="#F8FAFC" font-size="26" font-weight="700">集成生态</text>
+    <text x="720" y="548" fill="#94A3B8" font-size="18">GitHub · Slack · Linear · MCP · 企业流程</text>
+  </g>
+</svg>

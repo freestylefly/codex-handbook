@@ -1,0 +1,19 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#0B1120"/>
+  <text x="88" y="110" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="700">Codex 安全边界分层</text>
+  <text x="88" y="150" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">用项目规则、运行环境和人工验证共同约束任务风险。</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="120" y="220" width="1040" height="86" rx="20" fill="#0F766E" fill-opacity=".22" stroke="#2DD4BF"/>
+    <text x="162" y="274" fill="#F8FAFC" font-size="28" font-weight="700">1. 任务说明</text>
+    <text x="398" y="274" fill="#CBD5E1" font-size="22">目标、范围、禁止事项、验收标准</text>
+    <rect x="160" y="326" width="960" height="86" rx="20" fill="#1D4ED8" fill-opacity=".2" stroke="#60A5FA"/>
+    <text x="202" y="380" fill="#F8FAFC" font-size="28" font-weight="700">2. AGENTS.md</text>
+    <text x="438" y="380" fill="#CBD5E1" font-size="22">项目结构、命令、代码规范、安全规则</text>
+    <rect x="200" y="432" width="880" height="86" rx="20" fill="#7C3AED" fill-opacity=".18" stroke="#A78BFA"/>
+    <text x="242" y="486" fill="#F8FAFC" font-size="28" font-weight="700">3. 沙盒与审批</text>
+    <text x="498" y="486" fill="#CBD5E1" font-size="22">文件写入、网络、命令执行、提权确认</text>
+    <rect x="240" y="538" width="800" height="86" rx="20" fill="#F59E0B" fill-opacity=".16" stroke="#FBBF24"/>
+    <text x="282" y="592" fill="#F8FAFC" font-size="28" font-weight="700">4. 验证与评审</text>
+    <text x="540" y="592" fill="#CBD5E1" font-size="22">测试、diff、人工 review、上线检查</text>
+  </g>
+</svg>

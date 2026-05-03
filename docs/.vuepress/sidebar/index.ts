@@ -26,7 +26,25 @@ export default sidebar({
       text: "实战案例",
       icon: "lightbulb",
       prefix: "/recipes/",
-      children: ["index.md", "fix-failing-test.md", "code-review.md"],
+      children: ["index.md", "fix-failing-test.md", "code-review.md", "official-community-cases.md"],
+    },
+  ],
+
+  "/platform/": [
+    {
+      text: "入口地图",
+      icon: "layout",
+      prefix: "/platform/",
+      children: ["index.md", "cli.md", "app.md", "cloud.md", "ide.md", "chatgpt.md"],
+    },
+  ],
+
+  "/practice/": [
+    {
+      text: "实践方法",
+      icon: "tool",
+      prefix: "/practice/",
+      children: ["index.md", "task-design.md", "non-dev-workflows.md", "team-playbook.md"],
     },
   ],
 
@@ -56,6 +74,8 @@ export default sidebar({
         "/guide/00-overview.md",
         "/guide/01-installation.md",
         "/guide/02-first-run.md",
+        "/platform/",
+        "/practice/",
         "/recipes/",
         "/reference/",
         "/community/roadmap.md",

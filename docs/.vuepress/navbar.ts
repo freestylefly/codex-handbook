@@ -16,6 +16,16 @@ export default navbar([
     ],
   },
   {
+    text: "资源",
+    icon: "box",
+    children: [
+      { text: "实践方法", icon: "tool", link: "/practice/" },
+      { text: "实战案例", icon: "lightbulb", link: "/recipes/" },
+      { text: "官方资料", icon: "link", link: "/reference/" },
+      { text: "共建路线图", icon: "people", link: "/community/roadmap.md" },
+    ],
+  },
+  {
     text: "教程",
     icon: "book",
     children: [
@@ -30,8 +40,4 @@ export default navbar([
       { text: "排障手册", icon: "debug", link: "/guide/09-troubleshooting.md" },
     ],
   },
-  { text: "实践方法", icon: "tool", link: "/practice/" },
-  { text: "实战案例", icon: "lightbulb", link: "/recipes/" },
-  { text: "官方资料", icon: "link", link: "/reference/" },
-  { text: "共建", icon: "people", link: "/community/roadmap.md" },
 ]);

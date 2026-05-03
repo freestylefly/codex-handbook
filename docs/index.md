@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: Codex 从入门到精通
+  name: CodexGuide
   text: 中文开源教程知识库
-  tagline: 从第一次安装，到真实项目交付；把 Codex 用成可靠的工程搭档。
+  tagline: Codex 从入门到精通。从第一次安装，到真实项目交付；把 Codex 用成可靠的工程搭档。
   image:
     src: /logo.svg
-    alt: Codex Handbook
+    alt: CodexGuide
   actions:
     - theme: brand
       text: 开始学习

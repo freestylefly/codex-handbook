@@ -1,22 +1,22 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Codex 从入门到精通',
+  title: 'CodexGuide',
   description: '面向中文开发者的 Codex 开源教程知识库',
   lang: 'zh-CN',
-  base: '/codex-handbook/',
+  base: '/CodexGuide/',
   cleanUrls: true,
   lastUpdated: true,
   head: [
     ['meta', { name: 'theme-color', content: '#111827' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Codex 从入门到精通' }],
+    ['meta', { property: 'og:title', content: 'CodexGuide' }],
     ['meta', { property: 'og:description', content: '面向中文开发者的 Codex 开源教程知识库' }],
-    ['meta', { property: 'og:image', content: 'https://blog.canghecode.com/codex-handbook/og.svg' }]
+    ['meta', { property: 'og:image', content: 'https://blog.canghecode.com/CodexGuide/og.svg' }]
   ],
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'Codex Handbook',
+    siteTitle: 'CodexGuide',
     outline: {
       label: '本页目录',
       level: [2, 3]
@@ -86,10 +86,10 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/freestylefly/codex-handbook' }
+      { icon: 'github', link: 'https://github.com/freestylefly/CodexGuide' }
     ],
     editLink: {
-      pattern: 'https://github.com/freestylefly/codex-handbook/edit/main/docs/:path',
+      pattern: 'https://github.com/freestylefly/CodexGuide/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     footer: {

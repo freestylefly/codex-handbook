@@ -1,8 +1,8 @@
 {
-  "name": "codex-handbook",
+  "name": "codex-guide",
   "version": "0.1.0",
   "private": true,
-  "description": "《Codex 从入门到精通》中文开源教程知识库",
+  "description": "CodexGuide：面向中文开发者的 Codex 开源教程知识库",
   "type": "module",
   "scripts": {
     "dev": "vitepress docs --host 0.0.0.0",

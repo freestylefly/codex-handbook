@@ -55,16 +55,6 @@ CodexGuide 致力于建设一份面向真实工程流程的中文知识库：结
 | [实战案例库](./docs/recipes/index.md) | 可复制到真实项目的任务模板和复盘结构 |
 | [官方资料索引](./docs/reference/index.md) | OpenAI 官方资料、GitHub 仓库和关键链接 |
 
-## 技术架构
-
-本站参考 [JavaGuide](https://github.com/Snailclimb/JavaGuide) 的内容组织方式，采用：
-
-- Markdown 内容源文件。
-- VuePress 静态站点生成器。
-- VuePress Theme Hope 主题。
-- Vercel 托管与自动部署。
-- 自定义域名：[`codexguide.ai`](https://codexguide.ai/)。
-
 ## 内容框架
 
 ```text
@@ -83,7 +73,7 @@ CodexGuide
 - 沙盒、审批和安全边界说明。
 - Cloud、IDE、App 使用场景对照。
 - 修复测试失败、代码审查等案例模板。
-- GitHub Pages 文档站和社区贡献模板。
+- 在线文档站和社区贡献模板。
 
 ## 本地预览
 
@@ -97,14 +87,6 @@ pnpm dev
 ```bash
 pnpm build
 ```
-
-Vercel 项目配置：
-
-- Framework Preset: `VuePress`
-- Install Command: `pnpm install --frozen-lockfile`
-- Build Command: `pnpm build`
-- Output Directory: `docs/.vuepress/dist`
-- Production Domain: `codexguide.ai`
 
 ## Star 趋势图
 

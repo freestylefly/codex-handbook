@@ -39,6 +39,21 @@ export default sidebar({
     },
   ],
 
+  "/configuration/": [
+    {
+      text: "配置与扩展",
+      icon: "gear",
+      prefix: "/configuration/",
+      children: [
+        "index.md",
+        "cli-options.md",
+        "config-file.md",
+        "mcp-skills-subagents.md",
+        "security-admin.md",
+      ],
+    },
+  ],
+
   "/practice/": [
     {
       text: "实践方法",
@@ -75,6 +90,7 @@ export default sidebar({
         "/guide/01-installation.md",
         "/guide/02-first-run.md",
         "/platform/",
+        "/configuration/",
         "/practice/",
         "/recipes/",
         "/reference/",

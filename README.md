@@ -20,6 +20,8 @@
   ·
   <a href="./docs/platform/index.md">入口地图</a>
   ·
+  <a href="./docs/configuration/index.md">配置专题</a>
+  ·
   <a href="./docs/practice/index.md">实践方法</a>
   ·
   <a href="./docs/recipes/index.md">实战案例</a>
@@ -54,6 +56,7 @@ CodexGuide 致力于建设一份面向真实工程流程的中文知识库：结
 | [第一次改代码](./docs/guide/02-first-run.md) | 选择低风险任务，并完成一次可验证修改 |
 | [提示词与任务说明](./docs/guide/03-prompting.md) | 写出更稳定、更可控的 Codex 任务 |
 | [真实工程工作流](./docs/guide/04-workflows.md) | 修 bug、补测试、重构、代码审查和文档生成 |
+| [配置与扩展](./docs/configuration/index.md) | CLI 选项、config.toml、MCP、Skills、Subagents、安全审批 |
 | [实践方法](./docs/practice/index.md) | 任务设计、非开发工作流和团队实践 |
 | [AGENTS.md](./docs/guide/05-agents-md.md) | 给 Codex 编写项目级规则和协作边界 |
 | [沙盒与审批](./docs/guide/06-sandbox-approvals.md) | 文件、命令、网络、凭据和生产资源的安全边界 |
@@ -67,6 +70,7 @@ CodexGuide 致力于建设一份面向真实工程流程的中文知识库：结
 CodexGuide
 ├─ guide       # 从入门到团队化的系统教程
 ├─ platform    # CLI、App、Cloud、IDE、ChatGPT 入口地图
+├─ configuration # CLI 选项、config.toml、MCP、Skills、安全审批
 ├─ practice    # 任务设计、非开发工作流、团队实践
 ├─ recipes     # 可复用的真实工程案例
 ├─ reference   # 官方资料索引与事实来源
@@ -77,6 +81,7 @@ CodexGuide
 
 - Codex CLI 入门路径。
 - Codex 多入口使用地图。
+- Codex 配置与扩展专题。
 - 任务说明与提示词模板。
 - 非开发工作流与团队实践方法。
 - `AGENTS.md` 项目规则模板。

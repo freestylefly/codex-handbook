@@ -1,0 +1,62 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Codex 配置地图</title>
+  <desc id="desc">展示 Codex 从项目规则、CLI 配置、扩展能力到安全边界的配置层级。</desc>
+  <rect width="1200" height="680" rx="32" fill="#F7F3EA"/>
+  <rect x="54" y="54" width="1092" height="572" rx="28" fill="#FFFDF8" stroke="#26201A" stroke-width="2"/>
+  <text x="94" y="116" fill="#1F1A16" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="800">Codex 配置地图</text>
+  <text x="94" y="154" fill="#756B5E" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">先管规则，再配环境，随后扩展能力，最后收紧安全边界。</text>
+
+  <g>
+    <rect x="94" y="208" width="230" height="318" rx="20" fill="#F4D35E" stroke="#26201A" stroke-width="2"/>
+    <circle cx="126" cy="246" r="12" fill="#26201A"/>
+    <text x="150" y="254" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800">项目规则</text>
+    <text x="126" y="305" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">AGENTS.md</text>
+    <text x="126" y="343" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">代码风格</text>
+    <text x="126" y="381" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">测试命令</text>
+    <text x="126" y="419" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">目录边界</text>
+    <text x="126" y="457" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">团队约定</text>
+  </g>
+
+  <g>
+    <rect x="358" y="208" width="230" height="318" rx="20" fill="#79B8F3" stroke="#26201A" stroke-width="2"/>
+    <circle cx="390" cy="246" r="12" fill="#26201A"/>
+    <text x="414" y="254" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800">本地配置</text>
+    <text x="390" y="305" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">config.toml</text>
+    <text x="390" y="343" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">profiles</text>
+    <text x="390" y="381" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">sandbox</text>
+    <text x="390" y="419" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">approvals</text>
+    <text x="390" y="457" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">环境变量</text>
+  </g>
+
+  <g>
+    <rect x="622" y="208" width="230" height="318" rx="20" fill="#9AD8C0" stroke="#26201A" stroke-width="2"/>
+    <circle cx="654" cy="246" r="12" fill="#26201A"/>
+    <text x="678" y="254" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800">扩展能力</text>
+    <text x="654" y="305" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Skills</text>
+    <text x="654" y="343" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">MCP servers</text>
+    <text x="654" y="381" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Subagents</text>
+    <text x="654" y="419" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Plugins</text>
+    <text x="654" y="457" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Automations</text>
+  </g>
+
+  <g>
+    <rect x="886" y="208" width="230" height="318" rx="20" fill="#F2A0A1" stroke="#26201A" stroke-width="2"/>
+    <circle cx="918" cy="246" r="12" fill="#26201A"/>
+    <text x="942" y="254" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800">安全边界</text>
+    <text x="918" y="305" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">只读默认</text>
+    <text x="918" y="343" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">审批策略</text>
+    <text x="918" y="381" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">网络权限</text>
+    <text x="918" y="419" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">敏感文件</text>
+    <text x="918" y="457" fill="#26201A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">审计记录</text>
+  </g>
+
+  <path d="M324 367H358" stroke="#26201A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M588 367H622" stroke="#26201A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M852 367H886" stroke="#26201A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M348 357L358 367L348 377" stroke="#26201A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M612 357L622 367L612 377" stroke="#26201A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M876 357L886 367L876 377" stroke="#26201A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="94" y="562" width="1022" height="1.5" fill="#D8D0C4"/>
+  <text x="94" y="599" fill="#756B5E" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">建议顺序：先写清项目级 AGENTS.md，再调本机 config.toml，随后接入 MCP / Skills，最后按组织要求管理审批和权限。</text>
+</svg>

@@ -5,6 +5,17 @@ export default navbar([
   { text: "学习路线", icon: "map", link: "/guide/00-overview.md" },
   { text: "入口地图", icon: "layout", link: "/platform/" },
   {
+    text: "配置",
+    icon: "gear",
+    children: [
+      { text: "配置总览", icon: "map", link: "/configuration/" },
+      { text: "CLI 选项与命令", icon: "terminal", link: "/configuration/cli-options.md" },
+      { text: "config.toml", icon: "config", link: "/configuration/config-file.md" },
+      { text: "MCP、Skills 与 Subagents", icon: "plugin", link: "/configuration/mcp-skills-subagents.md" },
+      { text: "安全与审批", icon: "safe", link: "/configuration/security-admin.md" },
+    ],
+  },
+  {
     text: "教程",
     icon: "book",
     children: [

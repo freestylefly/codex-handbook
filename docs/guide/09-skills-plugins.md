@@ -1,0 +1,64 @@
+# Skills 和 Plugins
+
+这一节介绍 Codex 里的 `Skills` 和 `Plugins`。不同版本的 App 或工作区里，入口位置和展示方式可能会调整，但核心区别相对稳定：`Skill` 更像可复用的工作流程说明，`Plugin` 更像把一组能力打包后分发和安装的方式。
+
+::: tip 最后核对
+官方资料最后核对日期：2026-05-10。本文参考 [Codex Skills](https://developers.openai.com/codex/skills) 与 [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)。如果你的界面与本文截图不完全一致，请优先以当前客户端和工作区可用功能为准。
+:::
+
+如果你在 App 中看到了和技能、插件相关的入口，可以结合下面的概念来理解它们：
+
+![image-20260510141515793](https://zzy-1326340203.cos.ap-beijing.myqcloud.com//image-20260510141515793.png?imageSlim)
+
+## Skill 是什么
+
+`Skill` 可以理解为一份让 Codex 稳定执行重复任务的操作手册。当某个工作流已经很固定，例如“审查 PR”“整理文档”“补案例索引”，就可以把它沉淀成一个 Skill，减少每次重复描述的成本。
+
+一个 Skill 通常会包含：
+
+1. 一个 `SKILL.md` 文件
+   这里会写清触发场景、执行步骤、输出格式和注意事项。
+2. 必要时配套脚本、模板或参考文件
+   用来帮助 Codex 更稳定地完成任务。
+
+![image-20260510141816289](https://zzy-1326340203.cos.ap-beijing.myqcloud.com//image-20260510141816289.png?imageSlim)
+
+常见使用方式是：
+
+- 先准备或安装可用的 Skill。
+- 在发起任务时明确说明你希望使用哪个 Skill。
+- 让 Codex 按这个 Skill 的流程执行，再根据结果继续追问或迭代。
+
+有些工作区会提供更直接的安装或启用方式；也有一些场景里，需要先把 Skill 放到约定目录，或者通过现有插件能力来分发。稳妥起见，不建议把“给一个 GitHub 链接就一定能自动安装”写成固定结论，更好的表述是：可以把 Skill 来源交给 Codex 协助识别和安装，但具体流程会受客户端能力和工作区设置影响。
+
+![image-20260510141948099](https://zzy-1326340203.cos.ap-beijing.myqcloud.com//image-20260510141948099.png?imageSlim)
+
+## Plugin 是什么
+
+`Plugin` 更像一种打包和分发机制，用来把可复用工作流、应用集成、MCP 服务配置等能力组合起来，方便在项目或团队中统一安装和使用。
+
+简单理解：
+
+- `Skill` 关注“这件事应该怎么做”。
+- `Plugin` 关注“把哪些能力打包起来，方便安装和复用”。
+
+所以 Skill 往往是具体流程本身，而 Plugin 更像承载这些流程和集成能力的安装单元。
+
+![image-20260510142335056](https://zzy-1326340203.cos.ap-beijing.myqcloud.com//image-20260510142335056.png?imageSlim)
+
+## 怎么理解它们的关系
+
+你可以把两者想成：
+
+- Skill 是“工作说明书”
+- Plugin 是“装着说明书、工具和连接配置的工具箱”
+
+有些插件里会包含一个或多个 Skills，也可能附带应用集成或 MCP 配置。这样团队在迁移环境时，不用手动一个个配置。
+
+## 使用时的提醒
+
+- 插件和技能的具体入口会随版本变化，不要把某个截图里的按钮位置当成永远不变。
+- 如果插件涉及外部系统、浏览器、邮箱、知识库或项目管理工具，先确认它是只读还是可写。
+- 涉及安装、写回外部系统或共享给团队时，最好保留人工复核。
+
+![image-20260510142434210](https://zzy-1326340203.cos.ap-beijing.myqcloud.com//image-20260510142434210.png?imageSlim)

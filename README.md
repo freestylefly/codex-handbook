@@ -54,13 +54,17 @@ CodexGuide 致力于建设一份面向真实工程流程的中文知识库：结
 | [入口地图](./docs/platform/index.md) | CLI、Desktop App、Cloud/Web、IDE、ChatGPT 的选择方法 |
 | [安装与登录](./docs/guide/01-installation.md) | Codex CLI 安装、更新、登录和第一次进入项目 |
 | [第一次改代码](./docs/guide/02-first-run.md) | 选择低风险任务，并完成一次可验证修改 |
-| [提示词与任务说明](./docs/guide/03-prompting.md) | 写出更稳定、更可控的 Codex 任务 |
-| [真实工程工作流](./docs/guide/04-workflows.md) | 修 bug、补测试、重构、代码审查和文档生成 |
+| [了解 Codex 项目和聊天](./docs/guide/03-projects-chats.md) | 认识 Project、对话和基础使用方式 |
+| [任务顺序执行与并行](./docs/guide/04-task-execution.md) | 理解排队、插入引导和多任务并行 |
+| [权限管理](./docs/guide/05-permissions.md) | 了解不同审批与执行模式的边界 |
+| [真实工程工作流](./docs/guide/06-workflows.md) | 修 bug、补测试、重构、代码审查和文档生成 |
 | [配置与扩展](./docs/configuration/index.md) | CLI 选项、config.toml、MCP、Skills、Subagents、安全审批 |
 | [实践方法](./docs/practice/index.md) | 任务设计、非开发工作流和团队实践 |
-| [AGENTS.md](./docs/guide/05-agents-md.md) | 给 Codex 编写项目级规则和协作边界 |
-| [沙盒与审批](./docs/guide/06-sandbox-approvals.md) | 文件、命令、网络、凭据和生产资源的安全边界 |
-| [Cloud、IDE 与 App](./docs/guide/07-cloud-ide-app.md) | 不同 Codex 使用入口的适用场景 |
+| [AGENTS.md](./docs/guide/07-agents-md.md) | 给 Codex 编写项目级规则和协作边界 |
+| [沙盒与审批](./docs/guide/08-sandbox-approvals.md) | 文件、命令、网络、凭据和生产资源的安全边界 |
+| [技能与插件](./docs/guide/09-skills-plugins.md) | 理解 Skills、Plugins 和扩展能力 |
+| [自动化](./docs/guide/10-automation.md) | 理解什么时候把重复流程交给后台执行 |
+| [Cloud、IDE 与 App](./docs/guide/11-cloud-ide-app.md) | 不同 Codex 使用入口的适用场景 |
 | [实战案例库](./docs/recipes/index.md) | 可复制到真实项目的任务模板和复盘结构 |
 | [官方资料索引](./docs/reference/index.md) | OpenAI 官方资料、GitHub 仓库和关键链接 |
 

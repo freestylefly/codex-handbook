@@ -46,7 +46,7 @@ features:
 2. 按顺序完成 [安装与登录](/guide/01-installation.html) 和 [第一次改代码](/guide/02-first-run.html)。
 3. 用 [任务设计](/practice/task-design.html) 改写自己的真实需求。
 4. 遇到具体任务时去 [实战案例库](/recipes/) 找模板。
-5. 如果要在团队内推广，优先补齐 [AGENTS.md](/guide/05-agents-md.html) 和 [沙盒与审批](/guide/06-sandbox-approvals.html)。
+5. 如果要在团队内推广，优先补齐 [AGENTS.md](/guide/07-agents-md.html) 和 [沙盒与审批](/guide/08-sandbox-approvals.html)。
 
 ::: tip 最后核对
 基础资料最后核对日期：2026-05-04。

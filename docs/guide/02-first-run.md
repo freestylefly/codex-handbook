@@ -153,4 +153,4 @@ git commit -m "fix: resolve failing test"
 - 一个可复用的任务模板。
 - 对 Codex 权限和审批的初步理解。
 
-下一步继续读：[提示词与任务说明](./03-prompting.md)。
+下一步继续读：[了解 Codex 项目和聊天](./03-projects-chats.md)。

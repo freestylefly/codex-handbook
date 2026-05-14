@@ -22,16 +22,25 @@ Codex 是 OpenAI 面向软件工程与知识工作场景的代理式工作流。
 
 | 阶段 | 目标 | 推荐页面 | 验收标准 |
 | --- | --- | --- | --- |
-| 入门 | 跑通一个低风险任务 | [安装与登录](./01-installation.md)、[第一次改代码](./02-first-run.md) | 能让 Codex 阅读仓库、修改一个小问题并运行验证 |
-| 进阶 | 形成稳定任务方法 | [提示词与任务说明](./03-prompting.md)、[实践方法](/practice/) | 能写清楚目标、范围、约束、验证和交付 |
-| 工程化 | 进入真实项目流程 | [真实工程工作流](./04-workflows.md)、[配置与扩展](/configuration/) | 每次改动都有 diff、测试结果和风险说明 |
-| 团队化 | 沉淀规则和案例 | [AGENTS.md](./05-agents-md.md)、[团队实践](/practice/team-playbook.md) | 项目有规则文件、案例库、排障手册和贡献路径 |
+| 入门 | 跑通一个低风险任务 | [App 下载与安装](./01-app-installation.md)、[用 Codex 完成第一个任务](./04-app-first-task.md) | 能用 Codex App 完成一次完整的任务闭环 |
+| 进阶 | 形成稳定任务方法 | [了解 Codex 基本组成](./03-app-overview.md)、[实践方法](/practice/) | 能写清楚目标、范围、约束、验证和交付 |
+| 工程化 | 进入真实项目流程 | [任务执行机制](./05-task-execution.md)、[配置与扩展](/configuration/) | 每次改动都有 diff、测试结果和风险说明 |
+| 团队化 | 沉淀规则和案例 | [AGENTS.md](./14-agents-md.md)、[团队实践](/practice/team-playbook.md) | 项目有规则文件、案例库、排障手册和贡献路径 |
 
 ## 新手推荐路径
 
+**从 App 开始（推荐）：**
+
+1. [下载安装 Codex App](./01-app-installation.md)，完成登录。
+2. 按需 [订阅 ChatGPT Plus](./02-subscribe-plus.md)，解锁完整功能。
+3. 阅读 [了解 Codex 基本组成](./03-app-overview.md)，认识界面结构。
+4. 跟着 [用 Codex 完成第一个任务](./04-app-first-task.md) 走完一次完整操作闭环。
+
+**从 CLI 开始（适合开发者）：**
+
 1. 阅读 [入口地图](/platform/)。
-2. 安装 CLI，完成一次登录和版本检查。
-3. 用“只读仓库总结”任务确认 Codex 能理解项目。
+2. [安装 CLI](./10-cli-installation.md)，完成一次登录和版本检查。
+3. 用”只读仓库总结”任务确认 Codex 能理解项目。
 4. 执行一个低风险修改，例如修文档、补测试或修复单个失败用例。
 5. 建立第一个 `AGENTS.md`，写入项目命令和禁止事项。
 6. 阅读 [配置与扩展](/configuration/)，准备 `config.toml`、Skills 和安全边界。
